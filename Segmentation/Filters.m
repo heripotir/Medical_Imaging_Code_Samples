@@ -1,20 +1,12 @@
 %{
-'average'
-Averaging filter
-'disk'
-Circular averaging filter (pillbox)
-'gaussian'
-Gaussian lowpass filter. Not recommended. Use imgaussfilt or imgaussfilt3 instead.
-'laplacian'
-Approximates the two-dimensional Laplacian operator
-'log'
-Laplacian of Gaussian filter
-'motion'
-Approximates the linear motion of a camera
-'prewitt'
-Prewitt horizontal edge-emphasizing filter
-'sobel'
-Sobel horizontal edge-emphasizing filter
+'average' : Averaging filter
+'disk' : Circular averaging filter (pillbox)
+'gaussian' :Gaussian lowpass filter. Not recommended. Use imgaussfilt or imgaussfilt3 instead.
+'laplacian': Approximates the two-dimensional Laplacian operator
+'log': Laplacian of Gaussian filter
+'motion' : Approximates the linear motion of a camera
+'prewitt': Prewitt horizontal edge-emphasizing filter
+'sobel': Sobel horizontal edge-emphasizing filter
 
 h = fspecial(type)
 B = imfilter(A,h)
